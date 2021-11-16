@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#1e1e1e"
+    android:layout_width="match_parent"
+    android:padding="12dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txt_item_contact_name"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:text="Имя контакта"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/txt_item_contact_phone"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:text="Номер телефона"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btn_item_call"
+        android:backgroundTint="@color/purple_200"
+        android:text="Позвонить"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_item_whatsapp"
+        android:backgroundTint="@color/purple_200"
+        android:text="WhatsApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>
